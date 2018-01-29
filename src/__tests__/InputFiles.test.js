@@ -23,5 +23,4 @@ it('should handle onChange', () => {
   const input = wrapper.find('input').first();
   input.simulate('change', { target: { files: [{ name: 1 }, { name: 2 }] } });
   expect(mockOnChange).toHaveBeenCalled();
-  expect(mockOnChange).toMatchSnapshot();
 });
