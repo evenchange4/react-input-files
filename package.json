@@ -59,7 +59,8 @@
     ],
     "testPathIgnorePatterns": [
       "<rootDir>/node_modules/",
-      "<rootDir>/lib/"
+      "<rootDir>/lib/",
+      "<rootDir>/es/"
     ],
     "resetMocks": true,
     "resetModules": true
