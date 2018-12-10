@@ -1,17 +1,21 @@
 // @flow
-import { configure, addDecorator, setAddon } from '@storybook/react';
-import infoAddon, { setDefaults } from '@storybook/addon-info';
-import { setOptions } from '@storybook/addon-options';
+import { configure, addDecorator } from '@storybook/react';
+import { withInfo } from '@storybook/addon-info';
+import { withOptions } from '@storybook/addon-options';
+import decorator from './decorator';
 
-setAddon(infoAddon);
-setDefaults({ inline: true });
-setOptions({
-  name: 'react-input-files',
-  url: 'https://github.com/evenchange4/react-input-files',
-  sortStoriesByKind: true,
-});
+addDecorator(decorator);
+addDecorator(withInfo({ inline: true }));
+addDecorator(
+  withOptions({
+    name: 'react-input-files',
+    url: 'https://github.com/evenchange4/react-input-files',
+    sortStoriesByKind: true,
+  }),
+);
 
-const context = (require: any).context('../src/', true, /\.example\.js$/);
+// $FlowFixMe
+const context = require.context('../src/', true, /\.example\.js$/);
 function loadStories() {
   context.keys().forEach(context);
 }

@@ -16,21 +16,35 @@ exports[`Storyshots InputFiles Basic 1`] = `
     }
     tabIndex="0"
   >
-    <button>
+    <button
+      type="button"
+    >
       Upload
     </button>
   </div>
   <Portal>
-    <input
-      accept="image/*"
-      onChange={[Function]}
-      style={
-        Object {
-          "display": "none",
-        }
+    <Portal
+      containerInfo={
+        <div>
+          <input
+            accept="image/*"
+            style="display: none;"
+            type="file"
+          />
+        </div>
       }
-      type="file"
-    />
+    >
+      <input
+        accept="image/*"
+        onChange={[Function]}
+        style={
+          Object {
+            "display": "none",
+          }
+        }
+        type="file"
+      />
+    </Portal>
   </Portal>
 </InputFiles>
 `;
