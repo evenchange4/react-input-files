@@ -5112,10 +5112,10 @@ hosted-git-info@^2.1.4:
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.7.1.tgz#97f236977bd6e125408930ff6de3eec6281ec047"
   integrity sha512-7T/BxH19zbcCTa8XkMlbK5lTo1WtgkFi3GvdWEyNuc4Vex7/9Dqbnpsf4JMydcfj9HCg4zUWFTL3Za6lapg5/w==
 
-hsu-scripts@0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/hsu-scripts/-/hsu-scripts-0.2.1.tgz#088f08fa408c133a17cd99f2b464b38a46658c55"
-  integrity sha512-ksaA2/tP9ng3gBOL6EeHwZO9CirstCjBw+UAUQh6z/Bhen/X/P/Q1dEZ1rffzVS6lwDJKbOnFnBuG4NYbMpTFw==
+hsu-scripts@0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/hsu-scripts/-/hsu-scripts-0.2.2.tgz#9c2916672788c9f25c2aab8022e978764fe4b106"
+  integrity sha512-NeW1F3J45wZK/tdKrfux070IEymyg6j2qabvN7+RYzXMr5pfjzPTuZy01nxyJtp7PUn8T4/px697WSr630kyoA==
   dependencies:
     "@babel/cli" "^7.2.0"
     "@babel/core" "^7.2.0"
