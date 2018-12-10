@@ -43,4 +43,5 @@ cache:
     - node_modules
 
 notifications:
-  email: evenchange4@gmail.com
+  email:
+    - evenchange4@gmail.com
