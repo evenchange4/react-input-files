@@ -39,7 +39,7 @@ import InputFiles from 'react-input-files';
 ```js
 type Props = {
   children: React.Node,
-  onChange: (files: Array<Object>, e: SyntheticEvent<HTMLInputElement>) => void,
+  onChange: (files: Array<File>, e: SyntheticEvent<HTMLInputElement>) => void,
   accept?: string,
   style?: Object,
 };
@@ -49,8 +49,8 @@ type Props = {
 
 ### Requirements
 
-- node >= 9.8.0
-- yarn >= 1.5.1
+- node >= 11.3.0
+- yarn >= 1.12.3
 
 ```sh
 $ yarn install --pure-lockfile

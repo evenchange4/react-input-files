@@ -3,12 +3,14 @@ import * as React from 'react';
 import PropTypes from 'prop-types';
 import { Portal } from 'react-portal';
 
-class InputFiles extends React.Component<{
+export type Props = {
   children: React.Node,
   onChange: (files: Array<File>, e: SyntheticEvent<HTMLInputElement>) => void,
   accept?: string,
   style?: Object,
-}> {
+};
+
+class InputFiles extends React.PureComponent<Props> {
   static propTypes = {
     children: PropTypes.node.isRequired,
     onChange: PropTypes.func, // (files: Array<File>, e: SyntheticEvent<HTMLInputElement>) => void,

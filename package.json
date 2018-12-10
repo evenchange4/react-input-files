@@ -17,7 +17,7 @@
     "start": "start-storybook -p 6006",
     "eslint": "eslint ./",
     "flow": "flow",
-    "flow-coverage": "hsu-scripts flow --threshold 85",
+    "flow-coverage": "hsu-scripts flow --threshold 80",
     "precommit": "lint-staged",
     "format": "prettier --write '**/*.{js,json,md,css,yaml,yml}' '*.{js,json,md,css,yaml,yml}'",
     "changelog": "github-changes -o evenchange4 -r react-input-files -b master -f ./CHANGELOG.md --order-semver --use-commit-body"
