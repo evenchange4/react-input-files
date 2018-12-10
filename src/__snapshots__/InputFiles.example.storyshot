@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots InputFiles Basic 1`] = `
+<InputFiles
+  accept="image/*"
+  onChange={[Function]}
+>
+  <div
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    style={
+      Object {
+        "display": "inline-block",
+      }
+    }
+    tabIndex="0"
+  >
+    <button
+      type="button"
+    >
+      Upload
+    </button>
+  </div>
+  <Portal>
+    <Portal
+      containerInfo={
+        <div>
+          <input
+            accept="image/*"
+            style="display: none;"
+            type="file"
+          />
+        </div>
+      }
+    >
+      <input
+        accept="image/*"
+        onChange={[Function]}
+        style={
+          Object {
+            "display": "none",
+          }
+        }
+        type="file"
+      />
+    </Portal>
+  </Portal>
+</InputFiles>
+`;
