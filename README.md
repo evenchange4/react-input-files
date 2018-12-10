@@ -22,7 +22,7 @@ $ yarn add react-input-files
 
 ## Demo
 
-* https://react-input-files.netlify.com/
+- https://react-input-files.netlify.com/
 
 ## Usage
 
@@ -49,8 +49,8 @@ type Props = {
 
 ### Requirements
 
-* node >= 9.8.0
-* yarn >= 1.5.1
+- node >= 9.8.0
+- yarn >= 1.5.1
 
 ```sh
 $ yarn install --pure-lockfile
@@ -71,9 +71,9 @@ $ yarn run build
 
 ## CONTRIBUTING
 
-* ⇄ Pull requests and ★ Stars are always welcome.
-* For bugs and feature requests, please create an issue.
-* Pull requests must be accompanied by passing automated tests.
+- ⇄ Pull requests and ★ Stars are always welcome.
+- For bugs and feature requests, please create an issue.
+- Pull requests must be accompanied by passing automated tests.
 
 ## [CHANGELOG](CHANGELOG.md)
 

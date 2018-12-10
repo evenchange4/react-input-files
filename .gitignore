@@ -8,6 +8,7 @@
 
 # production
 /storybook-static
+/es
 /lib
 
 # misc

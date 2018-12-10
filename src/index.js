@@ -1,4 +1,2 @@
 // @flow
-import InputFiles from './InputFiles';
-
-export default InputFiles;
+export { default } from './InputFiles';

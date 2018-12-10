@@ -1,0 +1,18 @@
+node_modules/
+
+# jest
+coverage/
+
+# lib
+lib/
+es/
+
+# include (negative ignore)
+!.storybook/
+storybook-static
+
+# flow
+flow-typed/
+
+# pkg
+pkg/

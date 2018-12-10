@@ -5,33 +5,37 @@ import { Portal } from 'react-portal';
 
 class InputFiles extends React.Component<{
   children: React.Node,
-  onChange: (files: Array<Object>, e: SyntheticEvent<HTMLInputElement>) => void,
+  onChange: (files: Array<File>, e: SyntheticEvent<HTMLInputElement>) => void,
   accept?: string,
   style?: Object,
 }> {
   static propTypes = {
     children: PropTypes.node.isRequired,
-    onChange: PropTypes.func, // (files: Array<Object>, e: SyntheticEvent<HTMLInputElement>) => void,
+    onChange: PropTypes.func, // (files: Array<File>, e: SyntheticEvent<HTMLInputElement>) => void,
     accept: PropTypes.string,
-    style: PropTypes.object,
+    style: PropTypes.object, // eslint-disable-line
   };
+
   static defaultProps = {
     accept: 'image/*',
   };
-  onInputRef = (node: any): void => {
-    this.input = node;
-  };
+
+  input = React.createRef<React.ElementRef<'input'>>();
+
   onClick = (e: SyntheticEvent<HTMLButtonElement>) => {
     e.preventDefault();
-    if (this.input) this.input.click();
+    const input = this.input.current;
+    if (input) input.click();
   };
+
   onChange = (e: Object) => {
-    this.props.onChange(e.target.files, e);
+    const { onChange } = this.props;
+    onChange(e.target.files, e);
   };
-  input: ?React.ElementRef<'input'>;
+
   render() {
     const { children, accept, style } = this.props;
-    const { onInputRef, onClick, onChange } = this;
+    const { input, onClick, onChange } = this;
 
     return (
       <React.Fragment>
@@ -47,7 +51,7 @@ class InputFiles extends React.Component<{
 
         <Portal>
           <input
-            ref={onInputRef}
+            ref={input}
             type="file"
             accept={accept}
             onChange={onChange}
