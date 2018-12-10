@@ -1,5 +1,6 @@
 {
   "name": "react-input-files",
+  "version": "1.0.0",
   "typings": "./index.d.ts",
   "main": "lib/index.js",
   "module": "es/index.js",
