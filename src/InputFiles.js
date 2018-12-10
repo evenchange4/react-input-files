@@ -5,7 +5,10 @@ import { Portal } from 'react-portal';
 
 export type Props = {
   children: React.Node,
-  onChange: (files: Array<File>, e: SyntheticEvent<HTMLInputElement>) => void,
+  onChange: (
+    files: Array<File>,
+    e: SyntheticEvent<HTMLInputElement>,
+  ) => void | Promise<void>,
   accept?: string,
   style?: Object,
 };
