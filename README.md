@@ -49,7 +49,7 @@ type Props = {
 
 ### Requirements
 
-- node >= 11.4.0
+- node >= 11.5.0
 - yarn >= 1.12.3
 
 ```sh
@@ -65,6 +65,14 @@ $ yarn run eslint
 $ yarn run flow
 $ yarn run test:watch
 $ yarn run build
+```
+
+## Publish
+
+```bash
+$ npm version patch
+$ npm run changelog
+git commit & push
 ```
 
 ---
