@@ -41,7 +41,7 @@
     "eslint": "5.10.0",
     "flow-bin": "0.89.0",
     "github-changes": "1.1.2",
-    "hsu-scripts": "0.2.3",
+    "hsu-scripts": "0.3.0",
     "husky": "1.3.0",
     "jest": "23.6.0",
     "lint-staged": "8.1.0",
