@@ -21,7 +21,7 @@
     "flow-coverage": "hsu-scripts flow --threshold 77",
     "precommit": "lint-staged",
     "format": "prettier --write '**/*.{js,json,md,css,yaml,yml}' '*.{js,json,md,css,yaml,yml}'",
-    "changelog": "conventional-changelog --preset jscs --infile ./CHANGELOG.md --same-file --release-count 0 --output-unreleased"
+    "changelog": "conventional-changelog --infile ./CHANGELOG.md --same-file --release-count 0 --output-unreleased"
   },
   "dependencies": {
     "prop-types": "^15.6.2",
