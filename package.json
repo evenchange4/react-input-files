@@ -46,9 +46,9 @@
     "jest": "24.0.0",
     "lint-staged": "8.1.1",
     "prettier": "1.16.2",
-    "react": "16.7.0",
-    "react-dom": "16.7.0",
-    "react-test-renderer": "16.7.0"
+    "react": "16.8.1",
+    "react-dom": "16.8.1",
+    "react-test-renderer": "16.8.1"
   },
   "jest": {
     "setupFilesAfterEnv": [
