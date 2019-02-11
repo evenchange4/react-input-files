@@ -7,10 +7,6 @@
 [![npm package][npm-badge]][npm]
 [![npm downloads][npm-downloads]][npm]
 
-[![Dependency Status][dependency-badge]][dependency]
-[![devDependency Status][devdependency-badge]][devdependency]
-[![peerDependency Status][peerdependency-badge]][peerdependency]
-
 [![prettier][prettier-badge]][prettier]
 [![license][license-badge]][license]
 
@@ -98,11 +94,5 @@ MIT: [http://michaelhsu.mit-license.org](http://michaelhsu.mit-license.org)
 [npm-downloads]: https://img.shields.io/npm/dt/react-input-files.svg?style=flat-square
 [license-badge]: https://img.shields.io/npm/l/react-input-files.svg?style=flat-square
 [license]: http://michaelhsu.mit-license.org/
-[dependency-badge]: https://david-dm.org/evenchange4/react-input-files.svg?style=flat-square
-[dependency]: https://david-dm.org/evenchange4/react-input-files
-[devdependency-badge]: https://david-dm.org/evenchange4/react-input-files/dev-status.svg?style=flat-square
-[devdependency]: https://david-dm.org/evenchange4/react-input-files#info=devDependencies
-[peerdependency-badge]: https://david-dm.org/evenchange4/react-input-files/peer-status.svg?style=flat-square
-[peerdependency]: https://david-dm.org/evenchange4/react-input-files#info=peerDependencies
 [prettier-badge]: https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square
 [prettier]: https://github.com/prettier/prettier
