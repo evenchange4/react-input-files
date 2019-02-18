@@ -36,7 +36,7 @@
     "@storybook/react": "4.2.0-alpha.8",
     "codecov": "3.2.0",
     "conventional-changelog-cli": "2.0.12",
-    "enzyme": "3.8.0",
+    "enzyme": "3.9.0",
     "enzyme-adapter-react-16": "1.9.1",
     "enzyme-to-json": "3.3.5",
     "eslint": "5.14.0",
