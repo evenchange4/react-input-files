@@ -1,4 +1,22 @@
-## Unreleased (2019-02-11)
+## Unreleased (2019-03-08)
+
+## 1.2.0 (2019-03-08)
+
+- 1.2.0 ([2d0d118](https://github.com/evenchange4/react-input-files/commit/2d0d118))
+- feat: add an option for multiple files upload (#113) ([3647434](https://github.com/evenchange4/react-input-files/commit/3647434)), closes [#113](https://github.com/evenchange4/react-input-files/issues/113)
+- chore(deps): update dependency codecov to v3.2.0 (#94) ([5a88e1c](https://github.com/evenchange4/react-input-files/commit/5a88e1c)), closes [#94](https://github.com/evenchange4/react-input-files/issues/94)
+- chore(deps): update dependency conventional-changelog-cli to v2.0.12 (#98) ([3f5f488](https://github.com/evenchange4/react-input-files/commit/3f5f488)), closes [#98](https://github.com/evenchange4/react-input-files/issues/98)
+- chore(deps): update dependency enzyme to v3.9.0 (#101) ([ba94451](https://github.com/evenchange4/react-input-files/commit/ba94451)), closes [#101](https://github.com/evenchange4/react-input-files/issues/101)
+- chore(deps): update dependency enzyme-adapter-react-16 to v1.10.0 (#106) ([744d325](https://github.com/evenchange4/react-input-files/commit/744d325)), closes [#106](https://github.com/evenchange4/react-input-files/issues/106)
+- chore(deps): update dependency eslint to v5.14.0 (#100) ([aced153](https://github.com/evenchange4/react-input-files/commit/aced153)), closes [#100](https://github.com/evenchange4/react-input-files/issues/100)
+- chore(deps): update dependency eslint to v5.14.1 (#102) ([6a37874](https://github.com/evenchange4/react-input-files/commit/6a37874)), closes [#102](https://github.com/evenchange4/react-input-files/issues/102)
+- chore(deps): update dependency flow-bin to v0.93.0 (#95) ([82d4470](https://github.com/evenchange4/react-input-files/commit/82d4470)), closes [#95](https://github.com/evenchange4/react-input-files/issues/95)
+- chore(deps): update dependency hsu-scripts to v1.0.6 (#104) ([b846a56](https://github.com/evenchange4/react-input-files/commit/b846a56)), closes [#104](https://github.com/evenchange4/react-input-files/issues/104)
+- chore(deps): update dependency hsu-scripts to v1.0.7 (#105) ([934363b](https://github.com/evenchange4/react-input-files/commit/934363b)), closes [#105](https://github.com/evenchange4/react-input-files/issues/105)
+- chore(deps): update dependency lint-staged to v8.1.4 (#96) ([322cbb0](https://github.com/evenchange4/react-input-files/commit/322cbb0)), closes [#96](https://github.com/evenchange4/react-input-files/issues/96)
+- chore(deps): update react monorepo to v16.8.2 (#97) ([3e577eb](https://github.com/evenchange4/react-input-files/commit/3e577eb)), closes [#97](https://github.com/evenchange4/react-input-files/issues/97)
+- chore(deps): update react monorepo to v16.8.3 (#103) ([0171d03](https://github.com/evenchange4/react-input-files/commit/0171d03)), closes [#103](https://github.com/evenchange4/react-input-files/issues/103)
+- docs(CHANGELOG): release 1.1.2 ([88f7594](https://github.com/evenchange4/react-input-files/commit/88f7594))
 
 ## <small>1.1.2 (2019-02-11)</small>
 
