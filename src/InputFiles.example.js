@@ -18,3 +18,18 @@ storiesOf('InputFiles', module).add(
     },
   },
 );
+
+storiesOf('InputFiles', module).add(
+  'Multiple Files',
+  () => (
+    <InputFiles onChange={files => action('onDrop')(files)} multiple>
+      <button type="button">Upload</button>
+    </InputFiles>
+  ),
+  {
+    info: {
+      text: `API: https://github.com/evenchange4/react-input-files#api`,
+      inline: true,
+    },
+  },
+);

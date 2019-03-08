@@ -38,6 +38,7 @@ type Props = {
   onChange: (files: Array<File>, e: SyntheticEvent<HTMLInputElement>) => void,
   accept?: string,
   style?: Object,
+  multiple?: boolean,
 };
 ```
 
