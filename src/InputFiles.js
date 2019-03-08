@@ -11,6 +11,7 @@ export type Props = {
   ) => void | Promise<void>,
   accept?: string,
   style?: Object,
+  multiple?: boolean,
 };
 
 class InputFiles extends React.PureComponent<Props> {
@@ -19,6 +20,7 @@ class InputFiles extends React.PureComponent<Props> {
     onChange: PropTypes.func, // (files: Array<File>, e: SyntheticEvent<HTMLInputElement>) => void,
     accept: PropTypes.string,
     style: PropTypes.object, // eslint-disable-line
+    multiple: PropTypes.bool,
   };
 
   static defaultProps = {
@@ -39,7 +41,7 @@ class InputFiles extends React.PureComponent<Props> {
   };
 
   render() {
-    const { children, accept, style } = this.props;
+    const { children, accept, style, multiple } = this.props;
     const { input, onClick, onChange } = this;
 
     return (
@@ -61,6 +63,7 @@ class InputFiles extends React.PureComponent<Props> {
             accept={accept}
             onChange={onChange}
             style={{ display: 'none' }}
+            multiple={multiple}
           />
         </Portal>
       </React.Fragment>
