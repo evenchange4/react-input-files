@@ -34,7 +34,7 @@
     "@storybook/addon-options": "4.2.0-alpha.8",
     "@storybook/addon-storyshots": "4.2.0-alpha.8",
     "@storybook/react": "4.2.0-alpha.8",
-    "codecov": "3.2.0",
+    "codecov": "3.6.5",
     "conventional-changelog-cli": "2.0.12",
     "enzyme": "3.9.0",
     "enzyme-adapter-react-16": "1.10.0",
