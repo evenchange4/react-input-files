@@ -38,7 +38,7 @@
     "conventional-changelog-cli": "2.0.12",
     "enzyme": "3.9.0",
     "enzyme-adapter-react-16": "1.10.0",
-    "enzyme-to-json": "3.3.5",
+    "enzyme-to-json": "3.6.2",
     "eslint": "5.14.1",
     "flow-bin": "0.93.0",
     "hsu-scripts": "1.0.7",
